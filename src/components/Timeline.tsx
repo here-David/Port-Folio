@@ -16,29 +16,35 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="12/2024 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">IT Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Teleperformance Malaysia - Kuala Lumpur</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            - Gained experience with Azure, Intune, Active Directory and in-house modern client management.
+            </p>
+            <p>
+            - Managed domain transitions, asset management, and troubleshooting during company acquisitions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="09/2022 - 11/2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Internship Software Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Enlinea Sdn.Bhd - Petaling Jaya</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+            - Help to test & fix Application Website (Test Case)
+            </p>
+            <p>
+            - Seeding databases and used framework (Laravel)
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2021 - 2021"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
@@ -61,7 +67,7 @@ function Timeline() {
             <p>
               Automation, Data Governance, Statistical Analysis
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </div>
